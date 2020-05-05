@@ -1,0 +1,33 @@
+*{box-sizing: border-box;}
+body{margin: 0; padding: 0;font-family: sans-serif;}
+a{text-decoration: none;color: #0499ff;}
+.nav{min-height: 40; background-color: #000; text-align: center;
+padding: 10;font-weight: 600}
+.menu{display: flex; flex-flow:row; color: #fff;list-style-type: none;
+margin: 0 auto;padding: 0;justify-content: space-around;}
+.name{display: block;margin-right: auto;}
+.li{padding: 10}
+.tagd{display: flex;flex-flow: row;list-style-type: none}
+header{width: 770;height: 400;text-align: center; background-image: url("https://placeimg.com/1000/400/any");
+background-size: cover;text-align:center;padding-top: 40}
+header img{border-radius: 50%;border:2px solid #000;}
+header img:hover{transform:: scale(1.2) rotate(5deg);transition: all .5s}
+.tag{margin: 10 auto;text-align: center; background-color: #fff;display: table;margin: 10 auto;padding: 10;border-radius: 10px;}
+.sabtag{background-color: black;color:yellow;}
+.content{display: flex;flex: row;margin: 0 auto;justify-content: space-around;
+}
+.cart{text-align: center;width:auto 500;margin: 10 auto; padding: 50;border-bottom: 3px solid gray;border-radius: 5;}
+footer{text-align: center;padding: 60}
+
+.yellow{background-color: #ff9904;color: #fff}
+.blue{background-color: #0399ff;color: #fff}
+.transition{
+  transition: background-color 0.5s ease;
+}
+.yellow:hover{
+  background-color: black
+}
+.blue:hover{
+  background-color: #fff;
+  color:black;
+}
